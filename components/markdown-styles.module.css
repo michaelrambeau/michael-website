@@ -16,3 +16,11 @@
 .markdown h3 {
   @apply text-2xl mt-8 mb-4 leading-snug;
 }
+
+.markdown h4 {
+  @apply text-xl mt-4 mb-2 leading-snug;
+}
+
+.markdown img {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}

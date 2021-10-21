@@ -13,3 +13,66 @@
 /* Stop purging. */
 
 /* Your own custom utilities */
+body {
+  background-color: #eeece5;
+  background: linear-gradient(125deg, #eeece5, #f3f3f3 41%, #ededed 0, #fff);
+  color: #302d2f;
+  font-size: 16px;
+}
+
+a {
+  @apply text-yellow-700;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  margin-left: 1.25rem;
+  list-style-type: disc;
+}
+li {
+  margin-bottom: 0.5rem;
+}
+.card {
+  @apply bg-white p-4 rounded-xl;
+}
+.card-title {
+  background: linear-gradient(125deg, #ffde74, #ffde74 71%, #f6ce4e 0, #f6ce4e);
+}
+p {
+  margin-bottom: 1rem;
+}
+
+@media print {
+  .hidden-print {
+    display: none;
+  }
+  .break-after {
+    page-break-before: always;
+    margin: 0;
+    background-color: white;
+  }
+  #site-content {
+    padding: 0;
+  }
+  .main-document {
+    box-shadow: none;
+  }
+  .japanese h3 {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+  }
+  .japanese li {
+    margin-bottom: 0.2rem;
+  }
+  .japanese p {
+    margin-bottom: 0.2rem;
+  }
+  body {
+    background-color: #fff;
+    background: none;
+  }
+}

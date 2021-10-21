@@ -1,0 +1,6 @@
+- Strong background on JavaScript, TypeScript, HTML, CSS
+- Expert about Single Page Applications built with the [React](https://facebook.github.io/react/) eco-system
+- State management with simple solutions like [Unstated](https://github.com/jamiebuilds/unstated-next) or more sophisticated state machines ([X-State](https://xstate.js.org/))
+- Mobile-first approach using Responsive Web Design
+- Web performance optimization techniques: Server Side Rendering, Code Splitting...
+- Static Site Generators and meta-frameworks: [NextJS](https://nextjs.org), [Gatsby](https://www.gatsbyjs.org/), [React Static](https://react-static.js.org/)
