@@ -17,9 +17,7 @@ export const Header = () => {
             </Link>
           </div>
           <nav className="h-16">
-            <NavLink exact href="/">
-              Home
-            </NavLink>
+            <NavLink href="/">Home</NavLink>
             <NavLink href="/projects">Projects</NavLink>
             <NavLink href="/resume">Resume</NavLink>
           </nav>

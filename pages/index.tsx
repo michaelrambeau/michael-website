@@ -93,7 +93,7 @@ const Experience = ({ content }) => {
 };
 
 function readMarkdownContentBlock(slug) {
-  const { content } = getPostBySlug(slug, ["content"]);
+  const { content } = getPostBySlug(slug);
   const html = markdownToHtml(content);
   return html;
 }

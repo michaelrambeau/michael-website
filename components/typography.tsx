@@ -1,4 +1,7 @@
-export const Heading1 = ({ className, ...props }) => (
+export const Heading1 = ({
+  className,
+  ...props
+}: { className?: string } & any) => (
   <h1 className={`text-6xl my-4 ${className}`} {...props} />
 );
 

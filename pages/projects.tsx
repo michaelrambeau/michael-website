@@ -3,7 +3,6 @@ import Head from "next/head";
 import Container from "../components/container";
 import MoreStories from "../components/more-stories";
 import HeroPost from "../components/hero-post";
-import Intro from "../components/intro";
 import Layout from "../components/layout";
 import { getPostBySlug } from "../lib/api";
 import { Heading1 } from "../components/typography";
