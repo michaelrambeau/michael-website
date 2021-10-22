@@ -9,17 +9,23 @@ title: "JavaScript Rising Stars"
 
 JavaScript Rising Stars is the annual round-up of the JavaScript landscape.
 
-Since 2016, at the end of every year, we analyze data from Best of JS and we provide rankings about the growth of the open source projects tracked by Best of JS.
+Since 2016, at the end of every year, I analyze data from [Best of JS](https://bestofjs.org) and I provide rankings about the growth of the open source projects tracked by Best of JS.
 
 The goal is to provide an overview of the trends over the last 12 months, by category:
 
 - UI frameworks
 - Node.js frameworks
 - React eco-system
+- Tooling
 - ...
 
-At the end of 2016, I wanted to share data and analysis about the main trends related to the JavaScript world.
+Over the time, the project has gathered some traction and we have a team of contributors who made the project available in several languages:
 
-So I wrote an article called "Rising Stars 2016", providing graphs about Github stars and writing an analysis split into 10 categories: front-end frameworks, mobile, testing, Node.js, tooling, IDE...
+- Japanese
+- Chinese
+- Spanish
+- Russian
 
-Over the time, the project has gathered some traction and we have a team of contributors who made the project available in several language: Japanese, Chinese, Spanish, Russian...
+In addition to raw data, we provide analysis and insights about the evolution of the JavaScript landscape.
+
+The project is a [Next.js](https://nextjs.org/) application deployed on Vercel.
