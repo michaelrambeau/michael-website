@@ -2,21 +2,27 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import cn from "classnames";
 
+import styles from "./header.module.css";
 import Container from "./container";
 
 export const Header = () => {
   return (
-    <header className="h-16 bg-white hidden-print">
+    <header className="bg-white hidden-print">
       <Container>
-        <div className="flex items-center text-xl">
-          <div className="flex-grow">
+        <div className="flex items-center text-xl flex-col xs:flex-row">
+          <div className="flex-grow hidden xs:block">
             <Link href="/">
-              <a className="text-gray-500 hover:text-gray-900 hover:no-underline">
+              <a
+                className={cn(
+                  styles.menuEntry,
+                  "text-gray-500 hover:text-gray-900 hover:no-underline"
+                )}
+              >
                 Michael Rambeau
               </a>
             </Link>
           </div>
-          <nav className="h-16">
+          <nav>
             <NavLink href="/">Home</NavLink>
             <NavLink href="/projects">Projects</NavLink>
             <NavLink href="/resume">Resume</NavLink>
@@ -33,9 +39,10 @@ const NavLink = ({ href, children }) => {
     <Link href={href}>
       <a
         className={cn(
-          "h-16 px-4 inline-flex items-center hover:no-underline text-gray-500 hover:text-gray-900",
+          styles.menuEntry,
+          "px-4 inline-flex items-center hover:no-underline text-gray-500 hover:text-gray-900 border-b-4 border-transparent",
           {
-            "border-b-4 border-yellow-400": router.asPath === href,
+            "border-yellow-400": router.asPath === href,
           }
         )}
       >

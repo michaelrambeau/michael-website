@@ -1,4 +1,4 @@
-- Strong background on JavaScript, TypeScript, HTML, CSS
+- Strong background on JavaScript, TypeScript, HTML, CSS, CSS-in-JS
 - Expert about Single Page Applications built with the [React](https://facebook.github.io/react/) eco-system
 - State management with simple solutions like [Unstated](https://github.com/jamiebuilds/unstated-next) or more sophisticated state machines ([X-State](https://xstate.js.org/))
 - Mobile-first approach using Responsive Web Design

@@ -31,18 +31,20 @@ const Intro = () => {
   return (
     <>
       <Heading1>React and Node.js expert in Osaka</Heading1>
-      <p>
-        Hello, I'm Michael Rambeau, I have a passion for modern web development
-        with React and Node.js APIs.
-      </p>
+      <div className="border-l-4 border-yellow-400 pl-4 py-2 mb-4">
+        <p className="mb-2">
+          Hello, I'm Michael Rambeau, I have a passion for modern web
+          development with React and Node.js APIs.
+        </p>
 
-      <p className="my-4">
-        I'm the creator of{" "}
-        <a className="link" href="https://bestofjs.org">
-          Best of JS
-        </a>
-        , a project to help developers understand the JavaScript landscape.
-      </p>
+        <p className="mb-0">
+          I'm the creator of{" "}
+          <a className="link" href="https://bestofjs.org">
+            Best of JS
+          </a>
+          , a project to help developers understand the JavaScript landscape.
+        </p>
+      </div>
     </>
   );
 };
@@ -56,7 +58,7 @@ const Skills = ({ content }) => {
           <div dangerouslySetInnerHTML={{ __html: content.frontend }} />
         </Card>
 
-        <Card title="Back-end" logo={<NodeJSLogo width={200} />}>
+        <Card title="Back-end" logo={<NodeJSLogo width={160} />}>
           <div dangerouslySetInnerHTML={{ __html: content.backend }} />
         </Card>
       </div>
@@ -66,14 +68,14 @@ const Skills = ({ content }) => {
 
 const Card = ({ title, logo, children }) => {
   return (
-    <div className="card flex">
+    <div className="card flex flex-col sm:flex-row">
       <div className="flex-grow">
         <div className="inline-block mb-4 py-1 px-2 uppercase card-title">
           {title}
         </div>
-        <div className="flex">{children}</div>
+        <div>{children}</div>
       </div>
-      <div>{logo}</div>
+      <div className="flex justify-center">{logo}</div>
     </div>
   );
 };

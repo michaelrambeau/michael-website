@@ -1,8 +1,5 @@
-export const Heading1 = ({
-  className,
-  ...props
-}: { className?: string } & any) => (
-  <h1 className={`text-6xl my-4 ${className}`} {...props} />
+export const Heading1 = (props) => (
+  <h1 className={`text-3xl sm:text-6xl my-4 sm:my-8`} {...props} />
 );
 
 export const Heading2 = (props) => (

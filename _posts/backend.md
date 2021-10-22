@@ -1,4 +1,4 @@
-- Web server and API: [Express](https://expressjs.com/), [Feathers](https://feathersjs.com/), [KeystoneJS](http://www.keystonejs.com/)
-- Deployment: [Vercel](https://vercel.com), AWS Lambdas
+- Node.js web server and APIs: [Express](https://expressjs.com/), [Feathers](https://feathersjs.com/), [KeystoneJS](http://www.keystonejs.com/)
+- Deployment: [Vercel](https://vercel.com), AWS Lambda
 - Testing: [Jest](https://facebook.github.io/jest/), [Mocha](https://mochajs.org/), [Tape](https://github.com/substack/tape)
 - Databases: [MongoDB](https://www.mongodb.com), [Firebase](https://firebase.google.com/), MySQL

@@ -14,7 +14,7 @@ gathers the most significant open-source projects related to web technologies: a
 
 Projects are classified under tags to let users search and compare projects in categories such as UI frameworks, React components, Node.js frameworks...
 
-It's a way to stay up-to-date about the latest trends as _Best of JS_ shows the trends over last days, weeks and months. New projects are constantly added (and removed too!).
+It's a way to stay up-to-date about the latest trends as _Best of JS_ shows the trends over the last days, weeks and months. New projects are constantly added (and removed too!).
 
 ### Background: why _Best of JS_?
 
@@ -34,7 +34,7 @@ Every day, _Best of JS_ aggregates data from Github about more than 2000 project
 
 - Single-page application built with React hosted on [Vercel](https://vercel.com)
 - UI components: [ChakraUI](https://chakra-ui.com/) (modular and accessible component library for React)
-- State management: [Unstated](): the simplest solution to handle the state by composing containers that handle piece of the state.
+- State management: [Unstated](): a simple solution to handle the state by composing containers
 
 #### Backend
 

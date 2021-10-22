@@ -1,6 +1,5 @@
 import Head from "next/head";
 import { BsFilePerson, BsEnvelope, BsFillHouseDoorFill } from "react-icons/bs";
-// import mapValues from "lodash/mapValues";
 import pProps from "p-props";
 import marked from "marked";
 
@@ -39,8 +38,8 @@ const age = today.getFullYear() - 1977;
 
 const Profile = () => (
   <div className="flex">
-    <div className="space-y-4" style={{ flexGrow: 1 }}>
-      <Heading1 className="mt-0">Full-stack web engineer</Heading1>
+    <div className="space-y-4 flex-grow">
+      <h1 className="text-3xl sm:text-6xl mb-6">Full-stack web engineer</h1>
       <ProfileItem icon={<BsFilePerson size="24" />}>
         Michael Rambeau (ミカエル ランボー), {age} years old, French
       </ProfileItem>
@@ -57,12 +56,8 @@ const Profile = () => (
         <a href={`https://bestofjs.org/`}>https://bestofjs.org/</a>{" "}
       </ProfileItem>
     </div>
-    <div>
-      <img
-        src="/assets/michael-400x400.png"
-        width={150}
-        style={{ margin: 0 }}
-      />
+    <div className="hidden sm:block">
+      <img src="/assets/michael-400x400.png" width={150} />
     </div>
   </div>
 );

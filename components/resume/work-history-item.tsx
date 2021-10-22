@@ -12,10 +12,9 @@ const getDate = (item) => {
 };
 
 export const WorkHistoryItem = ({ item }) => (
-  <div className="border-l-2 border-yellow-400 pl-4 py-2">
-    <header className="flex items-center justify-between text-yellow-600">
+  <div className="sm:border-l-2 sm:border-yellow-400 sm:pl-4 sm:py-2">
+    <header className="flex flex-col sm:flex-row sm:items-center justify-between text-yellow-600">
       <div className="flex items-center">
-        {/* <Icon id="calendar" className="svg-icon" /> */}
         <BsCalendar3 />
         <div className="ml-1">{getDate(item)}</div>
       </div>
