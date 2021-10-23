@@ -51,7 +51,7 @@ p {
     display: none;
   }
   .break-after {
-    page-break-before: always;
+    page-break-after: always;
     margin: 0;
     background-color: white;
   }

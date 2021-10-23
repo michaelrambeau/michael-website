@@ -8,7 +8,7 @@ export const workHistoryData = {
     points: [
       "Design, develop and maintain web applications made with React / TypeScript / Node.js",
       "Develop and monitor workflows involving image upload and processing, using AWS S3, EC2 and ECR",
-      "Build components to let users annotate medical images provided by hospitals in order to train AI models",
+      "Build React components to let users annotate medical images provided by hospitals in order to train AI models",
     ],
   },
   pactera: {

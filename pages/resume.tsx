@@ -38,8 +38,8 @@ const age = today.getFullYear() - 1977;
 
 const Profile = () => (
   <div className="flex">
-    <div className="space-y-4 flex-grow">
-      <h1 className="text-3xl sm:text-6xl mb-6">Full-stack web engineer</h1>
+    <div className="space-y-2 flex-grow">
+      <h1 className="text-4xl sm:text-6xl mb-6">Full-stack web engineer</h1>
       <ProfileItem icon={<BsFilePerson size="24" />}>
         Michael Rambeau (ミカエル ランボー), {age} years old, French
       </ProfileItem>
@@ -56,7 +56,7 @@ const Profile = () => (
         <a href={`https://bestofjs.org/`}>https://bestofjs.org/</a>{" "}
       </ProfileItem>
     </div>
-    <div className="hidden sm:block">
+    <div className="hidden xs:block">
       <img src="/assets/michael-400x400.png" width={150} />
     </div>
   </div>
@@ -133,7 +133,7 @@ const Experience = ({ workHistory }) => {
     <div>
       <Heading2>Work experience</Heading2>
       <div className="space-y-6">
-        <WorkHistoryItem item={workHistory.medmain} />
+        <WorkHistoryItem item={workHistory.medmain} breakAfter />
         <WorkHistoryItem item={workHistory.pactera} />
         <WorkHistoryItem item={workHistory.bentoandco} />
         <WorkHistoryItem item={workHistory.firstserver} />

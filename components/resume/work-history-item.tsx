@@ -1,19 +1,28 @@
 import React from "react";
 import { BsCalendar3, BsGlobe } from "react-icons/bs";
-// import styled from "styled-components";
+import cn from "classnames";
 
-// import Icon from "../../svg/Icon";
-// import marked from "marked";
-
-const getDate = (item) => {
-  const year = item.from === item.to ? item.from : `${item.from} ⇒ ${item.to}`;
-  const duration = item.duration ? ` (${item.duration})` : "";
-  return `${year}${duration}`;
+type Item = {
+  title: string;
+  resp?: string;
+  points?: string[];
+  location: string;
+  from: "string";
+  to?: "string";
+  duration?: "string";
 };
 
-export const WorkHistoryItem = ({ item }) => (
-  <div className="sm:border-l-2 sm:border-yellow-400 sm:pl-4 sm:py-2">
-    <header className="flex flex-col sm:flex-row sm:items-center justify-between text-yellow-600">
+type Props = {
+  item: Item;
+  breakAfter?: boolean;
+};
+export const WorkHistoryItem = ({ item, breakAfter }: Props) => (
+  <div
+    className={cn("xs:border-l-2 xs:border-yellow-400 xs:pl-4 sm:py-2", {
+      "break-after": breakAfter,
+    })}
+  >
+    <header className="flex flex-col xs:flex-row xs:items-center justify-between text-yellow-600">
       <div className="flex items-center">
         <BsCalendar3 />
         <div className="ml-1">{getDate(item)}</div>
@@ -37,3 +46,9 @@ export const WorkHistoryItem = ({ item }) => (
     )}
   </div>
 );
+
+const getDate = (item: Item) => {
+  const year = item.from === item.to ? item.from : `${item.from} ⇒ ${item.to}`;
+  const duration = item.duration ? ` (${item.duration})` : "";
+  return `${year}${duration}`;
+};

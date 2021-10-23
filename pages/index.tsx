@@ -86,7 +86,7 @@ const Experience = ({ content }) => {
       <Heading2>Experience</Heading2>
       <div className="card">
         <div dangerouslySetInnerHTML={{ __html: content }} />
-        <div className="text-center pb-4">
+        <div className="text-center">
           For more details, check <Link href="/resume/">my resume</Link>.
         </div>
       </div>
