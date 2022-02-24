@@ -1,4 +1,5 @@
-- Node.js web server and APIs: [Express](https://expressjs.com/), [Feathers](https://feathersjs.com/), [KeystoneJS](http://www.keystonejs.com/)
-- Deployment: [Vercel](https://vercel.com), AWS Lambda
+- Node.js web servers and APIs: [Express](https://expressjs.com/), [Feathers](https://feathersjs.com/), [KeystoneJS](http://www.keystonejs.com/)
+- Cloud providers: [AWS](https://aws.amazon.com/), [Vercel](https://vercel.com) serverless functions
+- Command Line applications: [CAC](https://github.com/cacjs/cac)
 - Testing: [Jest](https://facebook.github.io/jest/), [Mocha](https://mochajs.org/), [Tape](https://github.com/substack/tape)
-- Databases: [MongoDB](https://www.mongodb.com), [Firebase](https://firebase.google.com/), MySQL
+- Databases: [MongoDB](https://www.mongodb.com), MySQL

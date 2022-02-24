@@ -44,7 +44,7 @@ const Profile = () => (
         Michael Rambeau (ミカエル ランボー), {age} years old, French
       </ProfileItem>
       <ProfileItem icon={<BsFillHouseDoorFill size="24" />}>
-        Residing in Ibaraki city, Osaka, Japan since April 2010
+        Residing in Osaka, Japan since April 2010
       </ProfileItem>
       <ProfileItem icon={<BsEnvelope size="24" />}>
         <a className="email" href={`mailto:${email}`}>
@@ -52,8 +52,8 @@ const Profile = () => (
         </a>
       </ProfileItem>
       <ProfileItem icon={<GitHubIcon width={24} />}>
-        Creator of <em>Best of JS</em> project:{" "}
-        <a href={`https://bestofjs.org/`}>https://bestofjs.org/</a>{" "}
+        Creator of <a href="https://bestofjs.org">Best of JS</a> and{" "}
+        <a href="https://risingstars.js.org">Rising Stars</a> projects
       </ProfileItem>
     </div>
     <div className="hidden xs:block">
@@ -104,15 +104,17 @@ const Skills = () => {
       <Heading2>Skills</Heading2>
       <ul>
         <SkillItem category="Frontend">
-          JavaScript ES6, TypeScript, React, CSS, CSS-in-JS
+          JavaScript, TypeScript, React, CSS-in-JS, TailwindCSS, Next.js, Remix,
+          ChakraUI, XState
         </SkillItem>
         <SkillItem category="UI/UX">
-          Attention to details, always willing to deliver the best user
-          experience
+          Attention to details, committed to deliver the best UX with
+          accessibility best practices in mind
         </SkillItem>
         <SkillItem category="Mobile">Responsive Web Design</SkillItem>
         <SkillItem category="Backend">
-          Node.js APIs, Express, Meteor, MongoDB
+          Node.js APIs, Express, Meteor, MongoDB, MySQL, AWS (S3, SQS, ECR,
+          ECS...), Vercel serverless
         </SkillItem>
         <SkillItem category="Testing">Jest, Mocha, Tape</SkillItem>
       </ul>

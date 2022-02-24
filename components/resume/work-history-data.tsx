@@ -7,7 +7,7 @@ export const workHistoryData = {
     location: "Osaka, Japan (remote)",
     points: [
       "Design, develop and maintain web applications made with React / TypeScript / Node.js",
-      "Develop and monitor workflows involving image upload and processing, using AWS S3, EC2 and ECR",
+      "Develop and monitor image upload and processing workflows on AWS (ECR, ECS, SQS, EC2, S3...)",
       "Build React components to let users annotate medical images provided by hospitals in order to train AI models",
     ],
   },
@@ -78,7 +78,7 @@ export const workHistoryData = {
     ],
   },
   ccr: {
-    title: "Notes developer at CCR (reinsurance company)",
+    title: "Lotus Notes developer at CCR (reinsurance company)",
     from: "2001",
     to: "2004",
     duration: "3 years",
