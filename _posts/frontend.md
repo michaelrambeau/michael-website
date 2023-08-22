@@ -1,7 +1,7 @@
 - Strong background on modern JavaScript and TypeScript
 - Styling with plain CSS, [TailwindCSS](https://tailwindcss.com/), CSS-in-JS solutions
-- Expert about Single Page Applications built with the [React](https://facebook.github.io/react/) eco-system
+- Expert about Single Page Applications built with the [React](https://react.dev/) eco-system
 - State management with simple solutions like [Unstated](https://github.com/jamiebuilds/unstated-next) or state machines ([XState](https://xstate.js.org/))
 - Mobile-first approach using Responsive Web Design
-- Web performance optimization techniques: Server Side Rendering, Code Splitting...
-- Static Site Generators and meta-frameworks: [NextJS](https://nextjs.org), [Remix](https://remix.run/), [Gatsby](https://www.gatsbyjs.org/), [React Static](https://react-static.js.org/)
+- Web performance optimization techniques: Server Side Rendering, Code Splitting, lazy loading...
+- Static Site Generators and meta-frameworks: [NextJS](https://nextjs.org), [Astro](https://astro.build/), [Remix](https://remix.run/), [Gatsby](https://www.gatsbyjs.org/)

@@ -1,8 +1,20 @@
 export const workHistoryData = {
+  uxpin: {
+    title: "Full-stack web development at [UXPin](https://uxpin.com/)",
+    from: "2022",
+    to: "Present",
+    duration: "2 years",
+    location: "Osaka, Japan (remote)",
+    points: [
+      "Development of a CLI app to integrate React components into a Design Editor",
+      "Mentorship to promote good practices about TypeScript and React development",
+      "Reduction of accumulated tech debt to improve performance",
+    ],
+  },
   medmain: {
     title: "Full-stack web development at [Medmain](https://medmain.com/)",
     from: "2019",
-    to: "Present",
+    to: "2022",
     duration: "3 years",
     location: "Osaka, Japan (remote)",
     points: [

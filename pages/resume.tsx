@@ -104,19 +104,19 @@ const Skills = () => {
       <Heading2>Skills</Heading2>
       <ul>
         <SkillItem category="Frontend">
-          JavaScript, TypeScript, React, CSS-in-JS, TailwindCSS, Next.js, Remix,
+          JavaScript, TypeScript, React Server Components, CSS-in-JS, TailwindCSS, Next.js, Remix,
           ChakraUI, XState
         </SkillItem>
         <SkillItem category="UI/UX">
           Attention to details, committed to deliver the best UX with
-          accessibility best practices in mind
+          accessibility best practices and performance in mind
         </SkillItem>
         <SkillItem category="Mobile">Responsive Web Design</SkillItem>
         <SkillItem category="Backend">
           Node.js APIs, Express, Meteor, MongoDB, MySQL, AWS (S3, SQS, ECR,
           ECS...), Vercel serverless
         </SkillItem>
-        <SkillItem category="Testing">Jest, Mocha, Tape</SkillItem>
+        {/* <SkillItem category="Testing">Jest, Mocha, Tape</SkillItem> */}
       </ul>
     </div>
   );
@@ -135,7 +135,8 @@ const Experience = ({ workHistory }) => {
     <div>
       <Heading2>Work experience</Heading2>
       <div className="space-y-6">
-        <WorkHistoryItem item={workHistory.medmain} breakAfter />
+        <WorkHistoryItem item={workHistory.uxpin} breakAfter />
+        <WorkHistoryItem item={workHistory.medmain} />
         <WorkHistoryItem item={workHistory.pactera} />
         <WorkHistoryItem item={workHistory.bentoandco} />
         <WorkHistoryItem item={workHistory.firstserver} />
