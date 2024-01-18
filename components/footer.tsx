@@ -7,7 +7,7 @@ export default function Footer() {
       <Container>
         <div className="py-12 text-center">
           <SocialNav />
-          <div className="text-center">Last update: February 2022</div>
+          <div className="text-center">Last update: January 2024</div>
         </div>
       </Container>
     </footer>

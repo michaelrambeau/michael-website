@@ -5,7 +5,7 @@ github: "https://github.com/bestofjs/bestofjs-webui"
 title: "Best of JS"
 ---
 
-![image](https://user-images.githubusercontent.com/5546996/136642215-0954411d-274c-4ae8-8106-75ed69108d15.png)
+![image](/assets/screenshots/bestofjs.png)
 
 ### Concept
 
@@ -30,14 +30,9 @@ Every day, _Best of JS_ aggregates data from Github about more than 2000 project
 
 ### Stack
 
-#### Frontend
-
-- Single-page application built with React hosted on [Vercel](https://vercel.com)
-- UI components: [ChakraUI](https://chakra-ui.com/) (modular and accessible component library for React)
-- State management: [Unstated](): a simple solution to handle the state by composing containers
-
-#### Backend
-
+- Next.js 14 application with React Server Components
+- Components form [shadcn/ui](https://ui.shadcn.com/)
+- Styling with [TailwindCSS](https://tailwindcss.com/)
 - Node.js API using serverless functions hosted on Vercel
 - MongoDB Database hosted on [MongoDB Cloud](https://cloud.mongodb.com/) service to store data related to projects tracked by _Best of JS_
-- [Auth0](https://auth0.com/): Authentication as a service, to let authenticated users create bookmarks
+- Hosted on [Vercel](https://vercel.com)

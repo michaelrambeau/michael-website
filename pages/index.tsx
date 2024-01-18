@@ -30,11 +30,11 @@ export default function HomePage({ experience, skills }) {
 const Intro = () => {
   return (
     <>
-      <Heading1>React and Node.js expert in Osaka</Heading1>
+      <Heading1>Passionate Frontend Engineer in Osaka</Heading1>
       <div className="border-l-4 border-yellow-400 pl-4 py-2 mb-4">
         <p className="mb-2">
           Hello, I'm Michael Rambeau, I have a passion for modern web
-          development with React and Node.js APIs.
+          development with tools like React, Next,js or Astro.
         </p>
 
         <p className="mb-0">
@@ -42,7 +42,8 @@ const Intro = () => {
           <a className="link" href="https://bestofjs.org">
             Best of JS
           </a>
-          , a project to help developers understand the JavaScript landscape.
+          , a popular project to help developers understand the JavaScript
+          landscape.
         </p>
       </div>
     </>

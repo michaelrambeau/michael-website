@@ -24,8 +24,11 @@ Over the time, the project has gathered some traction and we have a team of cont
 - Japanese
 - Chinese
 - Spanish
-- Russian
 
 In addition to raw data, we provide analysis and insights about the evolution of the JavaScript landscape.
 
-The project is a [Next.js](https://nextjs.org/) application deployed on Vercel.
+### Stack
+
+- Built with [Astro](https://astro.build/) framework
+- Interactivity provided by [htmx](https://htmx.org/) library
+- Hosted on [Vercel](https://vercel.com)

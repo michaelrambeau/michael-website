@@ -30,6 +30,7 @@ module.exports = {
       },
       screens: {
         xs: "500px",
+        print: { raw: "print" },
       },
     },
   },

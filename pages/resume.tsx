@@ -39,7 +39,9 @@ const age = today.getFullYear() - 1977;
 const Profile = () => (
   <div className="flex">
     <div className="space-y-2 flex-grow">
-      <h1 className="text-4xl sm:text-6xl mb-6">Full-stack web engineer</h1>
+      <h1 className="text-4xl mb-6 print:text-4xl">
+        Passionate Frontend Engineer
+      </h1>
       <ProfileItem icon={<BsFilePerson size="24" />}>
         Michael Rambeau (ミカエル ランボー), {age} years old, French
       </ProfileItem>
@@ -104,8 +106,8 @@ const Skills = () => {
       <Heading2>Skills</Heading2>
       <ul>
         <SkillItem category="Frontend">
-          JavaScript, TypeScript, React Server Components, CSS-in-JS, TailwindCSS, Next.js, Remix,
-          ChakraUI, XState
+          JavaScript, TypeScript, React Server Components and SPAs, CSS-in-JS,
+          TailwindCSS, Next.js, Astro, ChakraUI, XState
         </SkillItem>
         <SkillItem category="UI/UX">
           Attention to details, committed to deliver the best UX with
@@ -143,7 +145,7 @@ const Experience = ({ workHistory }) => {
         <WorkHistoryItem item={workHistory.brastel} />
         <WorkHistoryItem item={workHistory.airfrance} />
         <WorkHistoryItem item={workHistory.ccr} />
-        <WorkHistoryItem item={workHistory.gpa} />
+        {/* <WorkHistoryItem item={workHistory.gpa} /> */}
       </div>
     </div>
   );

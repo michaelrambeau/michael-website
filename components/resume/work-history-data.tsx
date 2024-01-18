@@ -2,13 +2,13 @@ export const workHistoryData = {
   uxpin: {
     title: "Full-stack web development at [UXPin](https://uxpin.com/)",
     from: "2022",
-    to: "Present",
+    to: "2023",
     duration: "2 years",
     location: "Osaka, Japan (remote)",
     points: [
       "Development of a CLI app to integrate React components into a Design Editor",
       "Mentorship to promote good practices about TypeScript and React development",
-      "Reduction of accumulated tech debt to improve performance",
+      "Development of a Figma plugin to integrate Figma artboard into a Design Editor",
     ],
   },
   medmain: {
@@ -57,7 +57,7 @@ export const workHistoryData = {
     points: [
       "Created a responsive prototype of customer portal application using Single Page Application architecture and React components",
       "Research and proposal to improve promotion web site eficiency and customer registration process",
-      "Introduced JavaScript latest technologies into a Rails application: React, Redux, ES6, Unit testing",
+      "Introduced JavaScript latest technologies: React, ES6, Unit testing",
     ],
   },
   brastel: {
@@ -68,10 +68,10 @@ export const workHistoryData = {
     location: "Osaka, Japan",
     resp: "In charge of the [brastelremit.jp](http://brastelremit.jp) web site, a money transfer service from Japan to locations overseas that was launched in March 2012.",
     points: [
-      "Created all pages of the Brastel Remit web site: implemented the layout provided by the Design team (XHTML) and made the page dynamic using web services provided by the System team (XSL - XML).",
+      "Created all pages of the Brastel Remit web site: implemented the layout provided by the Design team and made the page dynamic using web services provided by the System team (XSL - XML).",
       'Spearheaded changes to make the web site "mobile-friendly" using the "responsive design" approach',
       "Coordinated between the design and system teams in order to implement dynamic pages",
-      "Maintenance and updates to the Brastel Telecom website (international calling services)",
+      // "Maintenance and updates to the Brastel Telecom website (international calling services)",
     ],
   },
   airfrance: {
@@ -98,7 +98,7 @@ export const workHistoryData = {
     points: [
       "CAP Project : Customer Relationship Manager integrated into users' mailboxes, automatic archive from mailbox.",
       "Company Shared Agenda integrated with personal user agendas.",
-      "Log Analysis : application for Lotus Notes Administrators with daily scheduled agents sending e-mails.",
+      // "Log Analysis : application for Lotus Notes Administrators with daily scheduled agents sending e-mails.",
     ],
   },
   gpa: {
